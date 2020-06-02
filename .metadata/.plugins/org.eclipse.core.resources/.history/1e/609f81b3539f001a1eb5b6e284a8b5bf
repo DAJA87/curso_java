@@ -1,0 +1,20 @@
+package Clase2;
+
+public class Empleado {
+	private String nombre;
+	private int salario;
+	
+	public void inicializar() {
+		
+	}
+	
+	private void capturarInformacion() {
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

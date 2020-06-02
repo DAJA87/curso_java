@@ -1,0 +1,17 @@
+package enums;
+
+public class enumTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public enum Estaciones{
+		PRIMAVERA;
+		VERANO;
+		OTOÑO;
+		INVIERNO;
+	}
+
+}

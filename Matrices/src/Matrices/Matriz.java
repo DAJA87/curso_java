@@ -1,0 +1,41 @@
+package Matrices;
+
+import java.util.Scanner;
+
+public class Matriz {
+	private Scanner teclado;
+	private String[][] empleados;
+
+	/**
+	 * Constructor de la clase.
+	 */
+	public Matriz() {
+		teclado = new Scanner(System.in);
+		empleados = new String[3][5];
+
+		for (int c = 0; c < 5; c++) {
+			System.out.println("Digite el nombre del empleado: ");
+			empleados[1][c] = teclado.next();
+			System.out.println("Digite el tipo de contrato: ");
+			empleados[2][c] = teclado.next();
+			System.out.println("Digite el salario del empleado: ");
+			empleados[0][c] = teclado.next();			
+		}
+	}
+	
+	public void imprimir() {
+		for (int i = 0; i < 5; i++) {
+			for (int k = 0; k < 3; k++) {
+				System.out.print(empleados[k][i]+" ");
+			}
+			
+			System.out.println();
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		Matriz m = new Matriz();
+		m.imprimir();
+	}
+}

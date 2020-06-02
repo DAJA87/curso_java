@@ -1,0 +1,44 @@
+package Clase2;
+
+import java.util.Scanner;
+
+public class ClasesMetodos {
+	// Variables globales.
+	static String mayor;
+	static int edad;
+
+	/**
+	 * Metodo para calcular si la persona es mayor de edad o menor de edad.
+	 * 
+	 */
+	public void mayorEdad() {
+		if (edad < 18) {
+			mayor = "Menor de edad";
+		}
+	}
+
+	public static void main(String[] args) {
+		String nombre;
+		// Crear un objeto e instanciarlo.
+		Scanner capturar = new Scanner(System.in);
+		System.out.println("Digite su nombre");
+		nombre = capturar.nextLine();
+
+		System.out.println("Digite su edad");
+		edad = capturar.nextInt();
+
+		if (edad < 18) {
+			mayor = "Menor de edad";
+		}
+
+		System.out.println("Bienveinido(a) " + nombre);
+		System.out.println("Usted es: " + mayor);
+
+		System.out.println();
+
+		// Cerrar el Scanner.
+		capturar.close();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package Cola;
+
+public class Cola {
+	
+	private Nodo raiz,fondo;
+	
+	Cola(){
+		raiz = null;
+		fondo = null;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

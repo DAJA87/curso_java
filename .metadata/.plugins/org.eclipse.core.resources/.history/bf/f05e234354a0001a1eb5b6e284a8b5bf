@@ -1,0 +1,11 @@
+package Ejercicios;
+
+public class Operaciones {
+	int valor1 = 0, valor = 0;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int num1 = 0, num2 = 0, num3 = 0, num4 = 0;
+		
+		System.out.println("Ingresar número 1");
+		num1 = teclado.nextInt();
+		System.out.println("Ingresar número 2");
+		num2 = teclado.nextInt();
+		System.out.println("Ingresar número 3");
+		num3 = teclado.nextInt();
+		System.out.println("Ingresar número 4");
+		num4 = teclado.nextInt();
+		
+		
+
+	}
+
+}

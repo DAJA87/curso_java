@@ -1,0 +1,77 @@
+package Vectores;
+
+import java.util.Scanner;
+
+public class Ejercicio5 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int numeroPersonas, opcion = 0;
+		String[] vectorPersonas;
+		String nombreNuevo, nombreBusqueda;
+		
+		System.out.print("Ingresar número de personas a almacenar: ");
+		numeroPersonas = teclado.nextInt();
+		vectorPersonas = new String[numeroPersonas];
+		System.out.println();
+		
+		for (int i = 0; i < vectorPersonas.length; i++) {
+			System.out.print("Ingresar persona número "+i+": ");
+			vectorPersonas[i] = teclado.next();
+		}
+		
+		System.out.println();
+		
+		while (opcion != 5) {
+			System.out.println("Presione alguna de las opciones");
+			System.out.println("1.Contar la cantidad de nombres que se tienen almacenados en el vector");
+			System.out.println("2.Imprimir los nombres almacenados en el vector");
+			System.out.println("3.Buscar un nombre en el vector y contar la cantidad de veces que esta almacenado");
+			System.out.println("4.Actualizar un nombre del vector e imprimir el resultado");
+			System.out.println("5. Salir");
+			opcion = teclado.nextInt();
+			
+			switch (opcion) {
+			case 1:		
+				System.out.println("La cantidad de nombres es: "+numeroPersonas);
+				break;
+			case 2:
+				System.out.println("NOMBRES ALMACENADOS EN EL VECTOR");
+				
+				for (int i = 0; i < vectorPersonas.length; i++) {
+					System.out.println(vectorPersonas[i]+" | ");
+				}
+				
+				break;
+			case 3:
+				System.out.print("Ingrese nombre a buscar: ");
+				nombreBusqueda = teclado.next();
+				
+				for (int i = 0; i < vectorPersonas.length; i++) {
+					if (vectorPersonas[i].equals(nombreBusqueda))
+						vectorPersonas[i] = nombreBusqueda;
+				}
+				
+				break;
+			case 4:
+				System.out.print("Ingrese nombre a actualizar: ");
+				nombreNuevo = teclado.next();
+				
+				for (int i = 0; i < vectorPersonas.length; i++) {
+					if (vectorPersonas[i].equals(nombreNuevo))
+						vectorPersonas[i] = nombreNuevo;
+				}
+				
+				System.out.println("EL VECTOR ES EL SIGUIENTE");
+				
+				for (int i = 0; i < 10; i++) {
+					System.out.print(vectorPersonas[i]+" | ");
+				}
+				
+				break;
+			}
+		}
+		
+		teclado.close();
+	}
+}

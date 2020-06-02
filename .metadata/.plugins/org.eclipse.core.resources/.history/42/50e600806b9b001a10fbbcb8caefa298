@@ -1,0 +1,13 @@
+package PaqueteInicial;
+
+public class Programa1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Primer programa de Java");
+		System.out.println("Curso Java 1");
+		System.out.println(" ");
+		System.out.println("Hola Mundo");
+	}
+
+}

@@ -1,0 +1,19 @@
+package Vectores;
+
+import java.util.Scanner;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		String[] vector;
+		
+		vector = new String[10];
+		
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Ingresar valor 1: ");
+		}
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+public class Operaciones {
+	int valor1 = 0, valor2 = 0;
+	Scanner teclado = new Scanner("System.in");
+	
+	public Operaciones() {
+		System.out.println("Ingresar valor 1");
+		this.valor1 = teclado.nextInt();
+		System.out.println("Ingresar valor 2");
+		this.valor2 = teclado.nextInt();
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

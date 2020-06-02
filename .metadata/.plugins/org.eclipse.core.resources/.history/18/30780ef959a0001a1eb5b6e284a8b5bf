@@ -1,0 +1,25 @@
+package Ejercicios;
+
+import java.util.Random;
+
+/**
+ * Plantear un programa que permita jugar a los dados. 
+ * Las reglas de juego son: se tiran tres dados si 
+ * los tres salen con el mismo valor mostrar un mensaje que "gano", sino "perdió".
+ * @author franklin.aguirre
+ *
+ */
+public class Dados {
+	public static void main(String[] args) {
+		int dado1 = 0, dado2 = 0, dado3 = 0;
+		char[] numeros = "123456".toCharArray();		
+		
+		Random numeroAleatorio = new Random();
+		dado1 = numeros[numeroAleatorio.nextInt(6)];
+				
+		System.out.println(dado1);
+		System.out.println(dado2);
+		System.out.println(dado3);
+	}
+
+}

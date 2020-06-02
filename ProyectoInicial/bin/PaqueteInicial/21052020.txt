@@ -1,0 +1,11 @@
+Mauricio Jaramillo
+
+jose.jaramillo@cedesistemas.edu.co
+
+Una linea // 
+Varias lineas /**/
+Un bloque para comentareas /** **/
+
+Cuando la clase se crea es extensión .java
+Cuando se compila es una extensión .class
+

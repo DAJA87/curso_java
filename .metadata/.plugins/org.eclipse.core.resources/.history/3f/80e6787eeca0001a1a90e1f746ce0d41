@@ -1,0 +1,14 @@
+package Matrices;
+
+import java.util.Scanner;
+
+public class Matriz {
+	private Scanner teclado;
+	private String[][] empleados;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

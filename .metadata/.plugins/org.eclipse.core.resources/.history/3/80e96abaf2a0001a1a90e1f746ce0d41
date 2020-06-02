@@ -1,0 +1,18 @@
+package Vector;
+
+import java.util.Scanner;
+
+public class DatosEmpleado {
+	Scanner teclado;
+	String nombreEmpleado;
+	int salario;
+	
+	public DatosEmpleado() {
+		teclado = new Scanner(System.in);
+		System.out.println();
+		this.nombreEmpleado = teclado.nextLine();
+		System.out.println();
+		this.salario = teclado.nextInt();
+	}
+
+}

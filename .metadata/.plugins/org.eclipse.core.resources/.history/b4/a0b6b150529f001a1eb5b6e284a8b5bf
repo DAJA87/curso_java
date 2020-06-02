@@ -1,0 +1,43 @@
+package Clase2;
+
+import java.util.Scanner;
+
+public class TiposMetodos {
+	private Scanner teclado;
+	private String nombre;
+	private int edad;
+	
+	/**
+	 * Metodo para inicializar la información.
+	 */
+	public void inicializar() {
+		teclado = new Scanner(System.in);
+		System.out.println("Digite su nombre");
+		nombre = teclado.nextLine();
+		System.out.println("Digite su edad");
+		edad = teclado.nextInt();
+	}
+	
+	/**
+	 * Metodo para validar si la persona es mayor de edad o no.
+	 * @param edad
+	 * @return
+	 */
+	public String mayorEdad(int edad) {
+		String mayor = "Mayor de edad";
+		
+		if (edad < 18) {
+			mayor = "Menor de edad";
+		}
+		
+		return mayor;
+	}
+
+	public static void main(String[] args) {
+		String mayorEdad;
+		TiposMetodos tm = new TiposMetodos();
+		tm.inicializar();
+		mayorEdad = tm.mayorEdad(edad);
+	}
+
+}

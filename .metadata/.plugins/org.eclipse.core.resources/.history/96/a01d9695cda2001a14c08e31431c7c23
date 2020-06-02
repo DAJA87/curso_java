@@ -1,0 +1,11 @@
+package Ejercicios;
+
+/**
+ * Clase empleado.
+ * @author franklin.aguirre
+ *
+ */
+public class Empleado extends Persona{
+	private int sueldo;
+	
+}

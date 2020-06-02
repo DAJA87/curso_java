@@ -1,0 +1,12 @@
+package Clase2;
+
+public class Empleado {
+	private String nombre;
+	private int salario;
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

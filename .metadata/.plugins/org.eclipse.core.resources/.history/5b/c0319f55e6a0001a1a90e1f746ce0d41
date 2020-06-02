@@ -1,0 +1,11 @@
+package Vector;
+
+import java.util.*;
+
+public class Vector {
+	private Scanner teclado;
+
+	public static void main(String[] args) {
+		
+	}
+}

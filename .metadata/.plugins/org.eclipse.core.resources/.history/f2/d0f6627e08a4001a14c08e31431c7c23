@@ -1,0 +1,27 @@
+package Cola;
+
+public class Cola {
+	
+	private Nodo raiz,fondo;
+	
+	Cola(){
+		raiz = null;
+		fondo = null;
+	}
+	
+	boolean vacia() {
+		if (raiz == null)
+			return true;
+		else
+			return false;
+	}
+	
+	void insertar (int info) {
+		
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

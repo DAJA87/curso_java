@@ -1,0 +1,23 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+/**
+ * Clase empleado.
+ * @author franklin.aguirre
+ *
+ */
+public class Empleado extends Persona{
+	private int sueldo;
+	private Scanner teclado;
+	
+	public Empleado() {
+		System.out.println("Ingresar el sueldo");
+		sueldo = teclado.nextInt();
+	}
+	
+	public void imprimir() {
+		this.imprimir();
+		System.out.println("El sueldo es: "+sueldo);
+	}
+}

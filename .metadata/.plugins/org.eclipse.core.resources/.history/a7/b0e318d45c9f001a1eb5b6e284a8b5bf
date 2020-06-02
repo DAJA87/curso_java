@@ -1,0 +1,13 @@
+package Clase2;
+
+public class ColaboracionClases {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		DatosPersona dp = new DatosPersona(identificacion, tipoIdentificacion, nombreCompleto);
+		Salario s = new Salario(salario);
+
+	}
+
+}

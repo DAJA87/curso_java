@@ -1,0 +1,10 @@
+package Ejercicios;
+
+/**
+ * Clase empleado.
+ * @author franklin.aguirre
+ *
+ */
+public class Empleado {
+	
+}

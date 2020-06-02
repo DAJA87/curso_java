@@ -1,0 +1,9 @@
+package enums;
+
+public class enumTest {
+
+	public static void main(String[] args) {
+		System.out.println(Estaciones.PRIMAVERA);
+	}
+
+}

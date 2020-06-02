@@ -1,0 +1,33 @@
+package Clase2;
+
+import java.util.Scanner;
+
+public class ColaboracionClases {
+	private int identificacion = 0;
+	private String tipoIdentificacion, nombreCompleto;
+		
+	/**
+	 * Constructor de la clase.
+	 */
+	public ColaboracionClases() {
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Digite su número de Identificación: ");
+		this.identificacion = teclado.nextInt();
+		System.out.println("Digite su tipo de identificación: ");
+		this.tipoIdentificacion = teclado.next();
+		System.out.println("Digite su nombre completo");
+		this.nombreCompleto = teclado.nextLine();
+	}
+
+
+
+	public static void main(String[] args) {
+
+		
+		
+		DatosPersona dp = new DatosPersona(identificacion, tipoIdentificacion, nombreCompleto);
+		Salario s = new Salario(salario);
+
+	}
+
+}

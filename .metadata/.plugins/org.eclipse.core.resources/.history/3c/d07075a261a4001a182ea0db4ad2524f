@@ -1,0 +1,10 @@
+package Matrices;
+
+public class Ejercicio5 {
+
+	public static void main(String[] args) {
+		String[9][9] matriz;
+
+	}
+
+}

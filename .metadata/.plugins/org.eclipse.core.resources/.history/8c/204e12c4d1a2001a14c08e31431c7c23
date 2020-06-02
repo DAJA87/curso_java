@@ -1,0 +1,27 @@
+package Vectores;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+	
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		String[] vector;
+		int tamano, suma = 0;
+		
+		System.out.println("Ingresar número de elementos:");
+		tamano = teclado.nextInt();
+		vector = new String[tamano];
+		
+		for (int i = 1; i < tamano; i++) {
+			System.out.println("Ingresar posición: "+i);
+			vector[i] = teclado.next();
+			suma = suma + Integer.parseInt(vector[i]);
+		}
+		
+		System.out.println("La suma del vector es: "+suma);
+		teclado.close();
+
+	}
+
+}

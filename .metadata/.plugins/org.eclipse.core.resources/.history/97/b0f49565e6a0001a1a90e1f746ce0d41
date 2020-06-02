@@ -1,0 +1,12 @@
+package Vector;
+
+import java.util.*;
+
+public class Vector {
+	private Scanner teclado;
+	private int[] sueldos; // Definición de objeto tipo vector.
+
+	public static void main(String[] args) {
+		
+	}
+}

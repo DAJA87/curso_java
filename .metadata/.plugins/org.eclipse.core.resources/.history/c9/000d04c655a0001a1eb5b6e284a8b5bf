@@ -1,0 +1,12 @@
+package Ejercicios;
+
+/**
+ * La clase Socio debe tener los siguientes atributos privados: nombre y la antigüedad en el club (en años).
+ * @author franklin.aguirre
+ */
+public class Socio {
+	private String nombre = null;
+	private int antiguedad = 0;
+	
+	
+}

@@ -1,0 +1,8 @@
+package Herencia;
+
+public class Suma extends Operaciones {
+	
+	void suma(){
+		resultado = this.valor1 + this.valor2;
+	}
+}

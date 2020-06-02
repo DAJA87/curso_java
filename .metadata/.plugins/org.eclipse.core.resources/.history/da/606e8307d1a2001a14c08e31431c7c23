@@ -1,0 +1,18 @@
+package Vectores;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+	
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		String[] vector;
+		int tamano;
+		
+		System.out.println("Ingresar número de elementos:");
+		tamano = teclado.nextInt();
+		vector = new String[tamano];
+
+	}
+
+}

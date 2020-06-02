@@ -1,0 +1,23 @@
+package Matrices;
+
+import java.util.Scanner;
+
+public class Matriz {
+	private Scanner teclado;
+	private String[][] empleados;
+
+	/**
+	 * Constructor de la clase.
+	 */
+	public Matriz() {
+		teclado = new Scanner(System.in);
+		this.empleados = empleados;
+	}
+
+
+
+	public static void main(String[] args) {
+		
+	}
+
+}

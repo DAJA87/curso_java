@@ -1,0 +1,11 @@
+package PaqueteInicial;
+
+public class ProgramaSecuencial {
+
+	public static void main(String[] args) {
+		int a = 0, b = 0, suma = 0;		
+		suma = a + b;		
+		System.out.println("El resultado de la suma de a " + a + " + b " + b + " = " + suma);
+	}
+
+}

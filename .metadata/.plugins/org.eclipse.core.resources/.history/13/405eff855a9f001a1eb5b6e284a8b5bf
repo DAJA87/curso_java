@@ -1,0 +1,10 @@
+package Clase2;
+
+/**
+ * Clase para almacenar la información de una persona.
+ * @author franklin.aguirre
+ *
+ */
+public class DatosPersona {
+
+}

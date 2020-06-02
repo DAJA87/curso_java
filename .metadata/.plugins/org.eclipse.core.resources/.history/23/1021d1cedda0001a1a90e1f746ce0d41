@@ -1,0 +1,15 @@
+package Herencia;
+
+import java.util.Scanner;
+
+/**
+ * Clase para capturar la información para las operaciones.
+ * 
+ * @since 28/05/2020
+ * @author franklin.aguirre
+ * @version 1.0
+ */
+public class Operaciones {
+	protected Scanner teclado;
+	protected int valor1, valor2;
+}

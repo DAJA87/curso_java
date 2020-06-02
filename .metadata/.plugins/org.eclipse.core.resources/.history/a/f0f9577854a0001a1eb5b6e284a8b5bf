@@ -1,0 +1,20 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+public class Operaciones {
+	int valor1 = 0, valor = 0;
+	Scanner teclado = new Scanner("System.in");
+	
+	public Operaciones() {
+		this.valor1 = valor1;
+		this.valor = valor;
+	}
+
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

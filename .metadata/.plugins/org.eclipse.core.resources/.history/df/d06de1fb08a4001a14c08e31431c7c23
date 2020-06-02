@@ -1,0 +1,57 @@
+package Cola;
+
+public class Cola {
+	
+	private Nodo raiz,fondo;
+	
+	/**
+	 * Constructor de la clase.
+	 */
+	Cola(){
+		raiz = null;
+		fondo = null;
+	}
+	
+	/**
+	 * Validar si la lista esta vacia.
+	 * @return
+	 */
+	boolean vacia() {
+		if (raiz == null)
+			return true;
+		else
+			return false;
+	}
+	
+	
+	void insertar (int info) {
+		Nodo nuevo;
+		nuevo = new Nodo();
+		nuevo.info = info;
+		nuevo.sig = null;
+		
+		if (vacia()) {
+			raiz = nuevo;
+			
+		}else {
+			fondo.sig = nuevo;
+			fondo = nuevo;
+		}
+	}
+	
+	int extraer() {
+		if (!vacia()) {
+			
+		}
+	}
+	
+	public void imprimir() {
+		Nodo = reco =raiz;
+		System.out.println("Listado de todos los elementos de la cola");
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

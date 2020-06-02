@@ -1,0 +1,36 @@
+package Pilas;
+
+import org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID;
+
+public class Pila {
+	
+	class Nodo{
+		int info;
+		Nodo sig;
+	}
+	private Nodo raiz;
+	
+	public Pila() {
+		raiz=null;
+	}
+	
+	public void insertar(int x) {
+		Nodo nuevo;
+		nuevo = new Nodo();
+		nuevo.info = x;
+		
+		if (raiz==null) {
+			nuevo.sig = null;
+			raiz = nuevo;
+		}else {
+			nuevo.sig = raiz;
+			raiz = nuevo;
+		}
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

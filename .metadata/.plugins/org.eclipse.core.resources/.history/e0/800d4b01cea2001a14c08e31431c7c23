@@ -1,0 +1,40 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+/**
+ * Clase persona
+ * @author franklin.aguirre
+ * @since 30/05/2020
+ */
+public class Persona {
+	private String nombre;
+	private int edad;
+	private Scanner teclado;
+	
+	public Persona() {
+		teclado = new Scanner(System.in);
+		System.out.println("Ingresar el nombre");
+		nombre = teclado.nextLine();
+		System.out.println("Ingresar la edad");
+		edad = teclado.nextInt();
+	}
+	
+	public void imprimir() {
+		System.out.println("El nombre de la persona es: "+nombre);
+		System.out.println("La edad de "+nombre+" es: "+edad);
+	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+}

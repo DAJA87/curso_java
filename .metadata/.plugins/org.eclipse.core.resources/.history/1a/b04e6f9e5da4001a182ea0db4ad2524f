@@ -1,0 +1,11 @@
+package Matrices;
+
+/**
+ * Crear una matriz de n * m filas (cargar n y m por teclado) Intercambiar la primer fila con la segundo. 
+ * Imprimir luego la matriz.
+ * @author franklin.aguirre
+ *
+ */
+public class Ejercicio2 {
+	
+}

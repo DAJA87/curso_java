@@ -1,0 +1,15 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio5 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int cantPreguntas = 0, pregCorrectas = 0;
+		
+		
+
+	}
+
+}

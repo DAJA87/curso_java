@@ -1,0 +1,22 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio5 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int cantPreguntas = 0, pregCorrectas = 0;
+		String nivel;
+		
+		System.out.println("Ingrese la cantidad de preguntas");
+		cantPreguntas = teclado.nextInt();
+		System.out.println("Ingrese las preguntas contestadas correctamente");
+		pregCorrectas = teclado.nextInt();
+		
+		System.out.println("El nivel obtenido es"+nive);
+		
+		teclado.close();
+	}
+
+}

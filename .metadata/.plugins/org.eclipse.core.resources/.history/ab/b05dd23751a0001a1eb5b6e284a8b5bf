@@ -1,0 +1,28 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio6 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int sueldo = 0, antiguedad = 0;
+		double sueldoPagar = 0;
+		
+		System.out.println("Ingresar el sueldo");
+		sueldo = teclado.nextInt();
+		System.out.println("Ingresar la antigüedad en años");
+		antiguedad = teclado.nextInt();
+		sueldoPagar = sueldo;
+		
+		if (sueldo < 500 && antiguedad >= 10)
+			sueldoPagar = sueldo+(sueldo*0.2);
+		else if (sueldo < 500 && antiguedad < 10)
+			sueldoPagar = sueldo+(sueldo*0.05);
+		
+		System.out.println("El sueldo a pagar es: "+sueldoPagar);
+		teclado.close();
+		
+	}
+
+}

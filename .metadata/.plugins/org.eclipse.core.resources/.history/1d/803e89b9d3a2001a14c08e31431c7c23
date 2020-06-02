@@ -1,0 +1,27 @@
+package Vectores;
+
+import java.util.Scanner;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		String[] vector;
+		double suma = 0;
+		int cont = 0;
+		
+		vector = new String[10];
+		
+		for (int i = 0; i < 10; i++) {
+			System.out.print("Ingresar valor 1: ");
+			vector[0] = teclado.next();
+			
+			if (i%2==0) {
+				suma = suma + Double.parseDouble(vector[i]);
+				cont ++;
+			}
+		}
+		
+		System.out.println("La media de los números es: "+(suma/cont));
+
+}

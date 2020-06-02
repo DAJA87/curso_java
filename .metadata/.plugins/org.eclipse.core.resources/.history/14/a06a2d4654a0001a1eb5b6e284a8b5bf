@@ -1,0 +1,18 @@
+package Ejercicios;
+
+public class Operaciones {
+	int valor1 = 0, valor = 0;
+	
+	
+	public Operaciones(int valor1, int valor) {
+		this.valor1 = valor1;
+		this.valor = valor;
+	}
+
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

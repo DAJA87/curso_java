@@ -1,0 +1,35 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+import com.sun.org.apache.xerces.internal.impl.xpath.regex.CaseInsensitiveMap;
+
+public class Ejercicio5 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int cantPreguntas = 0, pregCorrectas = 0;
+		double porcentaje = 0;
+		String nivel;
+		
+		System.out.println("Ingrese la cantidad de preguntas");
+		cantPreguntas = teclado.nextInt();
+		System.out.println("Ingrese las preguntas contestadas correctamente");
+		pregCorrectas = teclado.nextInt();
+		porcentaje = (cantPreguntas*100)/pregCorrectas; 
+		
+		if (porcentaje >= 90)
+			nivel = "Nivel máximo";
+		else if (porcentaje >= 75 || porcentaje < 90) 
+			nivel = "Nivel medio";
+		else if (porcentaje >= 50 || porcentaje < 75)
+			nivel = "Nivel regular";
+		else if (porcentaje < 50)
+			nivel = "Fuera de nivel";
+		
+		System.out.println("El nivel obtenido es"+);
+		
+		teclado.close();
+	}
+
+}

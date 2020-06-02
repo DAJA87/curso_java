@@ -1,0 +1,30 @@
+package Clase2;
+
+import java.util.Scanner;
+
+public class ColaboracionClases {
+	private int identificacion = 0;
+	private String tipoIdentificacion, nombreCompleto;
+	
+	
+	/**
+	 * Constructor de la clase.
+	 */
+	public ColaboracionClases() {
+		this.identificacion = identificacion;
+		this.tipoIdentificacion = tipoIdentificacion;
+		this.nombreCompleto = nombreCompleto;
+	}
+
+
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		
+		DatosPersona dp = new DatosPersona(identificacion, tipoIdentificacion, nombreCompleto);
+		Salario s = new Salario(salario);
+
+	}
+
+}

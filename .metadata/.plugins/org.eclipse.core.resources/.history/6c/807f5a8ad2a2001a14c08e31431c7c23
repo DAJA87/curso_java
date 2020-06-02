@@ -1,0 +1,15 @@
+package Vectores;
+
+import java.util.Scanner;
+
+public class Ejercicio2 {
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		String[] vector;
+		int tamano, suma = 0;
+		
+		System.out.print("Ingresar número de alturas: ");
+		tamano = teclado.nextInt();
+		vector = new String[tamano];
+	}
+}

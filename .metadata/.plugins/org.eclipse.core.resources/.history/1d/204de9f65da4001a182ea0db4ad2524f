@@ -1,0 +1,23 @@
+package Matrices;
+
+import java.util.Scanner;
+
+/**
+ * Crear una matriz de n * m filas (cargar n y m por teclado) Intercambiar la primer fila con la segundo. 
+ * Imprimir luego la matriz.
+ * @author franklin.aguirre
+ *
+ */
+public class Ejercicio2 {
+	public static void main(String[] args) {
+		private Scanner teclado = new Scanner(System.in);
+		private String[][] matriz;
+		private int filas = 0, columnas = 0;
+		
+		System.out.print("Ingresar número de filas:");
+		filas = teclado.nextInt();
+		System.out.print("Ingresar número de columnas:");
+		co
+		matriz = new String[filas][columnas];
+	}
+}

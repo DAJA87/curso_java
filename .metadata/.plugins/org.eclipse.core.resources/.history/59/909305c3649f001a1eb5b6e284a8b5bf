@@ -1,0 +1,52 @@
+package Clase2;
+
+import java.util.Scanner;
+
+public class Salario {
+	Scanner teclado = new Scanner(System.in);
+	int salario = 0, valorExtra = 12000;
+	int salarioExtra = 0;
+	boolean impuesto = false;
+
+	/**
+	 * @param salario
+	 */
+	public Salario(int salario) {
+		this.salario = salario;
+	}
+	
+	private boolean impuestos() {	
+		if (salario>3000000) {
+			impuesto = true;
+		}
+		
+		return impuesto;
+	}
+	
+	/**
+	 * Verificar el salario con las horas extras.
+	 * @param cantExtras
+	 * @return
+	 */
+	private void extras(int cantExtras) {
+		this.salarioExtra = this.valorExtra * cantExtras;
+	}
+	
+	public void imprimir() {
+		impuestos();
+		teclado = new Scanner(System.in);
+		System.out.println("Digite la cantidad de horas extras del empleado: ");
+		extras(teclado.nextInt());
+		
+		System.out.println("El salario del empleado es: "+salario);
+		
+		if (impuesto)
+			System.out.println("Debe pagar impuestos");
+		else
+			System.out.println("No debe pagar impuestos.");
+		
+		System.out.println("Debe pagar impuestos");
+		System.out.println("La cantidad de horas extras es: "+salarioExtra);
+	}
+	
+}

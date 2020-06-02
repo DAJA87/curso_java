@@ -1,0 +1,16 @@
+package Herencia;
+
+/**
+ * Clase para probar las clases de herencia con las operaciones.
+ * @author franklin.aguirre
+ *
+ */
+public class Test {
+
+	public static void main(String[] args) {
+		Suma s = new Suma();
+		Resta r = new Resta();
+
+	}
+
+}

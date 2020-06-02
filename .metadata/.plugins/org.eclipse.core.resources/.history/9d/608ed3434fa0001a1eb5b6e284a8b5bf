@@ -1,0 +1,33 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+import com.sun.xml.internal.ws.api.pipe.NextAction;
+
+public class Ejercicio8 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int numero = 0,  sueldo = 0;
+		double promedio = 0, suma = 0;
+		
+		System.out.println("Ingresar el número de empleados");
+		numero = teclado.nextInt();
+		
+		for (int i = 1; i <= numero; i++) {
+			System.out.println("Ingrese el sueldo del empleado "+i);
+			sueldo = teclado.nextInt();
+			
+			if (sueldo < 100 || sueldo > 500  ) {
+				System.out.println("El sueldo debe estar entre 100 y 500 debe ingresarlo nuevamente");
+				i--;
+				NextAction;
+			}
+						
+			suma = suma + sueldo;			
+		}
+		
+		
+	}
+
+}

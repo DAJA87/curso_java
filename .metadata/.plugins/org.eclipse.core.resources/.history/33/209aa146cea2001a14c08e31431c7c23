@@ -1,0 +1,13 @@
+package Ejercicios;
+
+public class Herencia {
+
+	public static void main(String[] args) {
+		Persona per = new Persona();
+		Empleado emp = new Empleado();
+		
+		per.imprimir();
+		emp.imprimir();
+	}
+
+}

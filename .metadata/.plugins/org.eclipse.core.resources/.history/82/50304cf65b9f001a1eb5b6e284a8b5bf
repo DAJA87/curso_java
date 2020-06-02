@@ -1,0 +1,36 @@
+package Clase2;
+
+public class Salario {
+	int salario = 0;
+
+	/**
+	 * @param salario
+	 */
+	public Salario(int salario) {
+		this.salario = salario;
+	}
+	
+	public boolean impuestos() {		
+		if (salario>3000000) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	/**
+	 * Verificar el salario con las horas extras.
+	 * @param cantExtras
+	 * @return
+	 */
+	public int extras(int cantExtras) {
+		int salarioExtra = 0;
+		salarioExtra = this.salario * cantExtras;
+		return salarioExtra;
+	}
+	
+	private imprimir() {
+		System.out.println("El salario del empleado es: "+salario);
+	}
+	
+}
