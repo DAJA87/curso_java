@@ -18,7 +18,7 @@ public class enumTest {
 		System.out.println(primavera.equals("PRIMAVERA"));
 		System.out.println(primavera.compareTo("primavera")==0);
 		
-		System.out.println(Array.toArray(Estaciones.values()));
+		//System.out.println(Array.toArray(Estaciones.values()));
 	}
 
 }
