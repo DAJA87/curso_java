@@ -13,9 +13,8 @@ public class Switch {
 	
 	public void menuOpcion1() {
 		System.out.println("Menú principal");
-		System.out.println("1. Opción 1.");
-		System.out.println("2. Opción 2.");
-		System.out.println("3. Opción 3.");
+		System.out.println("1. Opción 1 .");
+		System.out.println("2. Opción 2 .");
 		System.out.println("Digite la opción que desea: ");
 		opcion = teclado.nextInt();
 		
