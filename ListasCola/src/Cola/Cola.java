@@ -39,6 +39,7 @@ public class Cola {
 		}
 	}
 	
+	/*
 	int extraer() {
 		if (!vacia()) {
 			inf informacion = raiz.info;
@@ -49,9 +50,10 @@ public class Cola {
 			}
 		}
 	}
+	*/
 	
 	public void imprimir() {
-		Nodo = reco.raiz;
+		//Nodo = reco.raiz;
 		System.out.println("Listado de todos los elementos de la cola");
 	}
 
