@@ -1,0 +1,44 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+/**
+ * La clase Socio debe tener los siguientes atributos privados: nombre y la antigüedad en el club (en años).
+ * @author franklin.aguirre
+ */
+public class Socio {
+	private String nombre = null;
+	private int antiguedad = 0;
+	Scanner teclado = new Scanner(System.in);
+	
+	public Socio() {
+		System.out.println("Ingresa el nombre del socio");
+		nombre = teclado.nextLine();
+		System.out.println("Ingresar antigüedad del socio en años");
+		antiguedad = teclado.nextInt();
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public int getAntiguedad() {
+		return antiguedad;
+	}
+
+	public void setAntiguedad(int antiguedad) {
+		this.antiguedad = antiguedad;
+	}
+
+	public Scanner getTeclado() {
+		return teclado;
+	}
+
+	public void setTeclado(Scanner teclado) {
+		this.teclado = teclado;
+	}
+}
