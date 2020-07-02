@@ -40,4 +40,8 @@
 <fullyQualifiedTypeName name="Abstractas.Oveja"/>
 <fullyQualifiedTypeName name="Programas.Suscripcion"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="OperadorAritmetico.OperacionPrueba"/>
+<fullyQualifiedTypeName name="OperadorAritmetico.OperadorAritmetico"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
 </qualifiedTypeNameHistroy>
