@@ -38,4 +38,6 @@
 <fullyQualifiedTypeName name="ArrayList.ArrayListTest"/>
 <fullyQualifiedTypeName name="ArrayList.DatosPersona"/>
 <fullyQualifiedTypeName name="Abstractas.Oveja"/>
+<fullyQualifiedTypeName name="Programas.Suscripcion"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
 </qualifiedTypeNameHistroy>
